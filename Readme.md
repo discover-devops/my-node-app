@@ -1,7 +1,7 @@
 ##### build Docker image called node-app. Execute from root
 
-    docker build -t node-app .
+    docker build -t my_node_app .
     
 ##### push image to repo 
 
-    docker tag node-app demo-app:node-1.0
+    docker tag my_node_app my_apps:node-1.0
