@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: discoverdevops/demo-app:node-1.0
+          image: discoverdevops/myprodapp:my_node_app-1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
